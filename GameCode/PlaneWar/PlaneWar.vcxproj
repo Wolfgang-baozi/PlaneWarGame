@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{651902EB-704D-453D-950C-CE36469A810D}</ProjectGuid>
+    <RootNamespace>PlaneWar</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="bitmap\back\back0.bmp" />
+    <None Include="bitmap\back\back1.bmp" />
+    <None Include="bitmap\back\back2.bmp" />
+    <None Include="bitmap\bomb\bombbase.bmp" />
+    <None Include="bitmap\bomb\bombmissile.bmp" />
+    <None Include="bitmap\bomb\bombpurple.bmp" />
+    <None Include="bitmap\bomb\bombredpoint.bmp" />
+    <None Include="bitmap\bomb\bombup_main.bmp" />
+    <None Include="bitmap\bomb\bombup_sub.bmp" />
+    <None Include="bitmap\bomb\boos_bomb_blue.bmp" />
+    <None Include="bitmap\bomb\boss_bomb_purple0.bmp" />
+    <None Include="bitmap\bomb\boss_bomb_purple1.bmp" />
+    <None Include="bitmap\bomb\boss_bomb_yellow.bmp" />
+    <None Include="bitmap\button\back.bmp" />
+    <None Include="bitmap\button\continue.bmp" />
+    <None Include="bitmap\button\nboff.bmp" />
+    <None Include="bitmap\button\nbon.bmp" />
+    <None Include="bitmap\button\pause.bmp" />
+    <None Include="bitmap\end.bmp" />
+    <None Include="bitmap\enemy\bossbase.bmp" />
+    <None Include="bitmap\enemy\bossking.bmp" />
+    <None Include="bitmap\enemy\bossmid.bmp" />
+    <None Include="bitmap\enemy\enemygreen.bmp" />
+    <None Include="bitmap\enemy\enemygrey.bmp" />
+    <None Include="bitmap\enemy\enemyred.bmp" />
+    <None Include="bitmap\enemy\enemyyellow.bmp" />
+    <None Include="bitmap\explosion.bmp" />
+    <None Include="bitmap\gamestart\circle.bmp" />
+    <None Include="bitmap\gamestart\hell.bmp" />
+    <None Include="bitmap\gamestart\help.bmp" />
+    <None Include="bitmap\gamestart\rank.bmp" />
+    <None Include="bitmap\gamestart\smile.bmp" />
+    <None Include="bitmap\gamestart\startback.bmp" />
+    <None Include="bitmap\gamestart\startbutton.bmp" />
+    <None Include="bitmap\number.bmp" />
+    <None Include="bitmap\plane\friendplane.bmp" />
+    <None Include="bitmap\plane\myplane1.bmp" />
+    <None Include="bitmap\prop\blood.bmp" />
+    <None Include="bitmap\prop\defense .bmp" />
+    <None Include="bitmap\prop\upgrade.bmp" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\PlaneWar.ico" />
+    <None Include="res\PlaneWar.rc2" />
+    <None Include="res\PlaneWarDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddHP.h" />
+    <ClInclude Include="afxsock.h" />
+    <ClInclude Include="Back.h" />
+    <ClInclude Include="BombBase.h" />
+    <ClInclude Include="BombObject.h" />
+    <ClInclude Include="BombPurple.h" />
+    <ClInclude Include="BombRedPoint.h" />
+    <ClInclude Include="BombUpMain.h" />
+    <ClInclude Include="BombUpSub.h" />
+    <ClInclude Include="BossBase.h" />
+    <ClInclude Include="BossBombFast.h" />
+    <ClInclude Include="BossKing.h" />
+    <ClInclude Include="BossMid.h" />
+    <ClInclude Include="Counter.h" />
+    <ClInclude Include="Crash.h" />
+    <ClInclude Include="Defense.h" />
+    <ClInclude Include="GameEnd.h" />
+    <ClInclude Include="EnemyGreen.h" />
+    <ClInclude Include="EnemyGrey.h" />
+    <ClInclude Include="EnemyObject.h" />
+    <ClInclude Include="EnemyRed.h" />
+    <ClInclude Include="EnemyYellow.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="Factor.h" />
+    <ClInclude Include="FactorBomb.h" />
+    <ClInclude Include="FactorPlane.h" />
+    <ClInclude Include="FactorProp.h" />
+    <ClInclude Include="FriendPlane.h" />
+    <ClInclude Include="GameGrade.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameSta.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="MoveLine.h" />
+    <ClInclude Include="MyPlane.h" />
+    <ClInclude Include="NbPattern.h" />
+    <ClInclude Include="Pause.h" />
+    <ClInclude Include="PlaneObject.h" />
+    <ClInclude Include="PlaneWar.h" />
+    <ClInclude Include="PlaneWarDoc.h" />
+    <ClInclude Include="PlaneWarView.h" />
+    <ClInclude Include="PropObject.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UpGrade.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddHP.cpp" />
+    <ClCompile Include="Back.cpp" />
+    <ClCompile Include="BombBase.cpp" />
+    <ClCompile Include="BombObject.cpp" />
+    <ClCompile Include="BombPurple.cpp" />
+    <ClCompile Include="BombRedPoint.cpp" />
+    <ClCompile Include="BombUpMain.cpp" />
+    <ClCompile Include="BombUpSub.cpp" />
+    <ClCompile Include="BossBase.cpp" />
+    <ClCompile Include="BossBombFast.cpp" />
+    <ClCompile Include="BossKing.cpp" />
+    <ClCompile Include="BossMid.cpp" />
+    <ClCompile Include="Counter.cpp" />
+    <ClCompile Include="Crash.cpp" />
+    <ClCompile Include="Defense.cpp" />
+    <ClCompile Include="EnemyGreen.cpp" />
+    <ClCompile Include="Enemygrey.cpp" />
+    <ClCompile Include="EnemyObject.cpp" />
+    <ClCompile Include="EnemyRed.cpp" />
+    <ClCompile Include="EnemyYellow.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FactorBomb.cpp" />
+    <ClCompile Include="FactorPlane.cpp" />
+    <ClCompile Include="FactorProp.cpp" />
+    <ClCompile Include="FriendPlane.cpp" />
+    <ClCompile Include="GameEnd.cpp" />
+    <ClCompile Include="GameGrade.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameSta.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="MoveLine.cpp" />
+    <ClCompile Include="MyPlane.cpp" />
+    <ClCompile Include="NbPattern.cpp" />
+    <ClCompile Include="Pause.cpp" />
+    <ClCompile Include="PlaneObject.cpp" />
+    <ClCompile Include="PlaneWar.cpp" />
+    <ClCompile Include="PlaneWarDoc.cpp" />
+    <ClCompile Include="PlaneWarView.cpp" />
+    <ClCompile Include="PropObject.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UpGrade.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlaneWar.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PlaneWar.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

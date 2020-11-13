@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PlaneWar.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PlaneWarDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PlaneWar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\explosion.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\number.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\back\back0.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\back\back1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\back\back2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\bombbase.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\bombmissile.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\bombpurple.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\bombredpoint.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\bombup_main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\bombup_sub.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\boos_bomb_blue.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\boss_bomb_purple0.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\boss_bomb_purple1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\bomb\boss_bomb_yellow.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\button\back.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\button\continue.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\button\nboff.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\button\nbon.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\button\pause.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\bossbase.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\bossking.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\bossmid.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\enemygreen.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\enemygrey.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\enemyred.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\enemy\enemyyellow.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\circle.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\hell.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\help.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\rank.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\startback.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\startbutton.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\plane\friendplane.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\plane\myplane1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\prop\blood.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\prop\defense .bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\prop\upgrade.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\end.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bitmap\gamestart\smile.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlaneWar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneWarDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneWarView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddHP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="afxsock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BombBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BombObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BombPurple.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BombRedPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BombUpMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BombUpSub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBombFast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossKing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Crash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Defense.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGrey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyYellow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Factor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorBomb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NbPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpGrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlaneWar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneWarDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneWarView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddHP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BombBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BombObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BombPurple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BombRedPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BombUpMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BombUpSub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBombFast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossKing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Crash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Defense.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemygrey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyYellow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorBomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorProp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSta.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NbPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpGrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlaneWar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
