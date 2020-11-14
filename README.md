@@ -31,3 +31,6 @@
 （1）敌机的初始位置是随机的  
 （2）敌机会根据其子弹的冷却时间来发射子弹，每架敌机只能发射一发子弹  
 （3）敌机血量为零后，敌机爆炸  
+
+## 流程图示：
+![Image text](https://raw.githubusercontent.com/Wolfgang-baozi/PlaneWarGame/main/img-folder/image1.png)
